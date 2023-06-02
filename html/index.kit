@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JumpSole</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/main.min.css">
+  <script src="./dist/js/main.min.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="index.html" class="logo">
+        <img src="./dist/img/logo.png" alt="placeholder">
+      </a>
+      <div class="mobile-nav">
+        <div class="burger-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="nav-list">
+          <a href="#" class="nav-item about-dly">About</a>
+          <a class="mobile-dropdown nav-item shop-dly">
+            <span class="dropdown-main">
+              Shop
+              <i class='bx bx-chevron-down'></i>
+            </span>
+            <a href="#" class="dropdown-link">Men</a>
+            <a href="#" class="dropdown-link">Women</a>
+            <a href="#" class="dropdown-link">Kids</a>
+          </a>
+          <a href="#" class="nav-item contact-dly">Contact</a>
+        </div>
+      </div>
+      <div class="desktop-nav">
+        <div class="nav-list">
+          <a href="#" class="nav-item about-dly">About</a>
+          <a class="desktop-dropdown nav-item shop-dly"> Shop <i class='bx bx-chevron-down'></i></a>
+          <a href="#" class="nav-item contact-dly">Contact</a>
+        </div>
+        <div class="nav-socials">
+          <a href="#" class="socials-link"><i class='bx bxl-meta'></i></a>
+          <a href="#" class="socials-link"><i class='bx bxl-instagram'></i></a>
+          <a href="#" class="socials-link"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+      <div class="dropdowns-menu">
+        <ul href="#" class="dropdown-link">Indoor
+          <ul class="dropdown-list">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+          </ul>
+        </ul>
+        <ul href="#" class="dropdown-link">Outdoor
+          <ul class="dropdown-list">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+          </ul>
+        </ul>
+        <ul href="#" class="dropdown-link">Equipment
+          <ul class="dropdown-list">
+            <a href="#">Indoor</a>
+            <a href="#">Outdoor</a>
+            <a href="#">Accessories</a>
+          </ul>
+        </ul>
+        <ul href="#" class="dropdown-link">Lorem, ipsum.
+          <ul class="dropdown-list">
+            <a href="#">Lorem.</a>
+            <a href="#">Lorem.</a>
+            <a href="#">Lorem.</a>
+          </ul>
+        </ul>
+        <ul href="#" class="dropdown-link">Lorem, ipsum.
+          <ul class="dropdown-list">
+            <a href="#">Lorem.</a>
+            <a href="#">Lorem.</a>
+            <a href="#">Lorem.</a>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="intro">
+      <div class="intro-text">
+        <h2 class="intro-main">Ultimate Hoops Footwear</h2>
+        <p class="intro-info">Unleash Your Potential on the Court</p>
+      </div>
+      <div class="intro-cta">
+        <a href="#" class="intro-btn">Discover Now</a>
+        <a href="#" class="intro-btn">Get to know us</a>
+      </div>
+    </div>
+    <div class="header-vid">
+      <video src="./dist/img/AirLace.mov" autoplay loop></video>
+    </div>
+    <div class="header-carousel">
+      <div class="carousel-arrow left-arrow" id="left">
+        <i class='bx bx-chevron-left'></i>
+      </div>
+      <div class="carousel-imgs">
+        <img src="./dist/img/Shoes (1).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (2).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (3).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (4).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (5).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (6).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (7).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (2).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (1).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (4).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (3).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (6).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (5).jpg" alt="placeholder" draggable="false">
+        <img src="./dist/img/Shoes (7).jpg" alt="placeholder" draggable="false">
+      </div>
+      <div class="carousel-arrow right-arrow">
+        <i class='bx bx-chevron-right' id="right"></i>
+      </div>
+      <p class="carousel-text">Our best selection</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="apps" id="apps">
+      <h2>Explore our Apps</h2>
+      <div class="cards">
+        <div class="app-card first">
+          <div class="card-logo">
+            <img src="./dist/img/logo.png" alt="placeholder">
+          </div>
+          <div class="card-content">
+            <p class="text">Locate our stores</p>
+            <a href="#" class="app-btn">Our App</a>
+          </div>
+        </div>
+        <div class="app-card second">
+          <div class="card-logo">
+            <img src="./dist/img/jumpsole-trainee.png" alt="placeholder">
+          </div>
+          <div class="card-content">
+            <p class="text">Improve your performance
+              with our Online Training Program</p>
+            <div class="flex-cnt">
+              <a href="#" class="app-btn">Coaching App</a>
+              <a href="#" class="app-btn">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    ©2023 JumpSole, All rights reserved
+  </footer>
+</body>
+
+</html>

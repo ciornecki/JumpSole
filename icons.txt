@@ -1,0 +1,11 @@
+meta <i class='bx bxl-meta'></i>
+twitter <i class='bx bxl-twitter' ></i>
+insta <i class='bx bxl-instagram' ></i>
+
+mappin <i class='bx bx-map-pin' ></i>
+socials <i class='bx bx-group' ></i>
+contact <i class='bx bx-envelope' ></i>
+phone <i class='bx bx-phone' ></i>
+
+<i class='bx bx-chevron-left' ></i>
+<i class='bx bx-chevron-right' ></i>
